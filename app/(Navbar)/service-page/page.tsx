@@ -1,6 +1,6 @@
 import css from "./service.module.css"
 import Link from "next/link"
-export default function Rafay() {
+export function Rafay() {
     return (
         <div>
             <div className={css.container}>
