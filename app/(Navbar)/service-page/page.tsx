@@ -1,6 +1,6 @@
 import css from "./service.module.css"
 import Link from "next/link"
-export function Navigation() {
+const Navigation = () => {
     return (
         <div>
             <div className={css.container}>
@@ -15,3 +15,4 @@ export function Navigation() {
     )
 }
 
+export default Navigation
